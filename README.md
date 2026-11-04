@@ -43,6 +43,7 @@ Disk Visualizer is a high-performance Windows desktop app that shows what is tak
 
 # How To Run from source code
 This project already comes with a built `logic.dll` file, so you can run the app right away in 3 simple steps.
+
 **Step 1. Install Python**  
 Download Python from [python.org](https://www.python.org/downloads/). During setup, check **"Add python.exe to PATH"** and keep **"tcl/tk and IDLE"** checked.
 
@@ -59,7 +60,7 @@ python gui.py
 
 ---
 
-**Step 4 (Optional). Creating The .dll File**
+**Step 4 (Optional). Creating The .dll File**;
 You only need this if you changed `logic.c` yourself.
 
 1. Install MSYS2 from [msys2.org](https://www.msys2.org/) (or run `winget install MSYS2.MSYS2` in Command Prompt)
